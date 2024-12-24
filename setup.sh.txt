@@ -1,0 +1,13 @@
+mkdir -p ~/.streamlit/
+
+echo "\
+[general]\n\
+email = \"yacine.ouhrouche04@hotmail.com\"\n\
+" > ~/streamlit/credentialss.toml
+
+echo "\
+[server]\n\
+headless = true\n\
+enableCORS=false\n\
+port = $PORT\n\
+" > ~/.streamlit/config.toml
